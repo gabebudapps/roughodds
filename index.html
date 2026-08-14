@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rough Odds — Pregnancy Risk</title>
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f6f6f4; --line: #e2e2dd;
+    --text: #16160f; --muted: #5f5f57; --accent: #7a5cff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111110; --surface: #1b1b19; --line: #2c2c28;
+      --text: #f2f2ec; --muted: #9d9d94; --accent: #a894ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 4rem 1.25rem 5rem;
+    background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 34rem; margin: 0 auto; }
+  .eyebrow {
+    font-size: .75rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--muted); margin: 0 0 .5rem;
+  }
+  h1 { font-size: 2.1rem; line-height: 1.15; margin: 0 0 .75rem; letter-spacing: -.02em; }
+  .lede { color: var(--muted); margin: 0 0 2.5rem; }
+  nav { display: grid; gap: .75rem; }
+  nav a {
+    display: block; text-decoration: none; color: inherit;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 12px; padding: 1rem 1.25rem;
+  }
+  nav a strong { display: block; color: var(--accent); margin-bottom: .15rem; }
+  nav a span { color: var(--muted); font-size: .9375rem; }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: .875rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <p class="eyebrow">iPhone app</p>
+  <h1>Rough Odds</h1>
+  <p class="lede">Answer six questions about her cycle and the timing, and get an
+  estimate of the chance of pregnancy — plus what to actually do next.
+  Everything stays on your iPhone.</p>
+
+  <nav>
+    <a href="./support.html">
+      <strong>Support</strong>
+      <span>Common questions, and how to get in touch.</span>
+    </a>
+    <a href="./privacy.html">
+      <strong>Privacy Policy</strong>
+      <span>Short, because the app collects nothing at all.</span>
+    </a>
+  </nav>
+
+  <footer>
+    <p>For information only. Not medical advice.<br>
+    If you need certainty, take a test.</p>
+  </footer>
+
+</main>
+</body>
+</html>

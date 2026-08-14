@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Rough Odds</title>
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f6f6f4; --line: #e2e2dd;
+    --text: #16160f; --muted: #5f5f57; --accent: #7a5cff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111110; --surface: #1b1b19; --line: #2c2c28;
+      --text: #f2f2ec; --muted: #9d9d94; --accent: #a894ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 5rem;
+    background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  .eyebrow {
+    font-size: .75rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--muted); margin: 0 0 .5rem;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  h2 {
+    font-size: 1.15rem; margin: 2.5rem 0 .75rem; letter-spacing: -.01em;
+    padding-top: 1.5rem; border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 1rem; margin: 1.75rem 0 .4rem; }
+  .updated { color: var(--muted); font-size: .875rem; margin: 0 0 2rem; }
+  .contact {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 12px; padding: 1.1rem 1.25rem; margin: 0 0 .5rem;
+  }
+  .contact p { margin: 0; }
+  .contact p + p { margin-top: .6rem; color: var(--muted); font-size: .9375rem; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin-bottom: .4rem; }
+  a { color: var(--accent); }
+  mark {
+    background: #ffe680; color: #16160f;
+    border-radius: 3px; padding: .05em .3em; font-weight: 600;
+  }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: .875rem;
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+
+  <p class="eyebrow">Rough Odds · Pregnancy Risk</p>
+  <h1>Support</h1>
+  <p class="updated">Last updated 14 August 2026</p>
+
+  <div class="contact">
+    <p><strong>Email:</strong>
+    <a href="mailto:info@gabebud.com">info@gabebud.com</a></p>
+    <p>There is no account to look up and no data on any server, so please describe
+    what you saw rather than expecting us to find your records — we have none.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <h3>Why is the probability number the highest one, not an average?</h3>
+
+  <p>Because the day she actually ovulated is the one thing the app cannot know.
+  Ovulation moves by several days between cycles even in women who consider
+  themselves regular, so the app works the odds out across a spread of plausible
+  ovulation days rather than betting on one. That produces a range — and the app
+  shows you the top of it, on purpose.</p>
+
+  <p>The true chance may be lower, but nothing in the data entitles you to assume it
+  is. <strong>Plan for the number on screen.</strong></p>
+
+  <h3>It won't let me past the date questions</h3>
+
+  <p>If the encounter date falls outside the cycle you described — before the period
+  start, or more than one cycle length after it — the app stops and asks you to
+  check the dates instead of calculating.</p>
+
+  <p>This is deliberate and it is not an error on your part. To work the odds out,
+  the app needs <strong>the period start immediately before that night</strong>, not
+  necessarily her most recent one. A stale period date would otherwise produce a
+  confidently low number for an encounter the data cannot actually cover.</p>
+
+  <h3>How do I delete what I've logged?</h3>
+
+  <p>Tap any logged day in the tracker again to unlog it. Swipe a saved estimate to
+  delete it. Deleting the app removes its database entirely. Nothing is stored
+  anywhere else — see the <a href="./privacy.html">privacy policy</a>.</p>
+
+  <h3>Does my data go anywhere?</h3>
+
+  <p>Nothing you enter does. As of version 1.0 the app has no analytics and no
+  accounts, and no answer, date, estimate or logged period is ever sent anywhere.
+  It stores the period start dates you log yourself, any estimate you deliberately
+  save, and a record of which version of the legal notice you accepted and when —
+  all on your iPhone.</p>
+
+  <p>The app makes one kind of network connection: when you open Extras, it asks
+  Apple what the purchase costs and whether you already own it. That goes to Apple
+  under your own Apple Account and carries nothing about you or your answers.
+  Everything else — the estimate, the tracker, the emergency contraception windows,
+  the test date — works with no connection at all. See the
+  <a href="./privacy.html">privacy policy</a> for the detail.</p>
+
+  <p>That means nobody at our end can see it. It does not mean it is beyond reach:
+  anyone who can unlock your phone can open the app, and local storage is not legal
+  privilege. See the <a href="./privacy.html">privacy policy</a>.</p>
+
+  <h3>Can I use this to check on a partner without telling her?</h3>
+
+  <p><strong>No — don't.</strong> Her cycle, her age and the date of a sexual act are
+  information about her health, and they are hers. Only enter them if she knows and
+  agrees. This app is not for monitoring anyone, and it is not for making decisions
+  on anyone's behalf. The decisions the result screen describes — emergency
+  contraception, testing, what happens next — are hers to make.</p>
+
+  <h3>Can I use the tracker as contraception?</h3>
+
+  <p><strong>No.</strong> Calendar methods are among the least reliable forms of
+  contraception. Ovulation moves. The tracker is there to help you understand a
+  cycle — never as a green light.</p>
+
+  <h3>The estimate seems too low / too high</h3>
+
+  <p>Every number comes from the same four-step calculation, and the app shows you
+  all of it in the <strong>How this works</strong> tab. There is no hidden model. The
+  figures are approximations of population averages, not individual predictions, and
+  illness, stress, travel, weight change, PCOS, thyroid conditions, recently stopping
+  hormonal birth control and postpartum recovery all move ovulation in ways no
+  calendar can see.</p>
+
+  <h3>What is Extras, and do I need it?</h3>
+
+  <p><strong>You do not need it.</strong> The estimate itself, the emergency
+  contraception options and their windows, when a test becomes reliable, the warning
+  when your cycle details make the estimate unreliable, the full calculation, and
+  logging in the tracker are all free. Extras is a one-off purchase — not a
+  subscription, and nothing renews — covering convenience and detail: exploring how
+  much the figure moves, combining more than one date, how much her cycle varies,
+  the tracker's predictions, saving estimates, the app lock, and the summary you can
+  hand to a clinician.</p>
+
+  <p>If you had more than one date of encounter in the same cycle and you have not
+  bought Extras, you can still run each one separately — the free estimate covers
+  every one of them individually.</p>
+
+  <h3>I bought Extras and it is locked, or I have a new iPhone</h3>
+
+  <p>Open Extras and tap <strong>Restore purchases</strong>. The purchase is held by
+  Apple against your Apple Account, so it restores on any iPhone signed in to the
+  same account, at no further cost. If it still does not unlock, check you are signed
+  in to the Apple Account you bought it with, then get in touch.</p>
+
+  <p>Extras needs a connection only at the moment you buy or restore. Once it is
+  unlocked it keeps working offline.</p>
+
+  <h3>I want a refund</h3>
+
+  <p>Refunds are handled by Apple, not by us — we never see the payment and cannot
+  process one. Use <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>,
+  or Settings on your iPhone, and follow Apple's process.</p>
+
+  <h3>I need an actual answer</h3>
+
+  <p>Take a test, or speak to a doctor or a pharmacist. This app is for information
+  only and is not medical advice. If the consequences of being wrong are serious, act
+  on a test — not on a screen.</p>
+
+  <h2>Reporting a problem</h2>
+
+  <p>If something looks wrong, the most useful things to include are:</p>
+
+  <ul>
+    <li>Which screen you were on.</li>
+    <li>Your iPhone model and iOS version.</li>
+    <li>Whether you were using a large text size or VoiceOver.</li>
+    <li>What you expected to see, and what you saw instead.</li>
+  </ul>
+
+  <p><strong>Please don't send us personal details you would rather not share.</strong>
+  We do not need anyone's real dates to investigate a layout or wording problem.</p>
+
+  <footer>
+    <p><a href="./index.html">Home</a> · <a href="./privacy.html">Privacy Policy</a><br>
+    Rough Odds · Published by Gabe Bud Investments Limited</p>
+  </footer>
+
+</main>
+</body>
+</html>
